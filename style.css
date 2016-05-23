@@ -23,7 +23,14 @@ body > section {
 }
 
 body > section > div {
-    display:inline-block; 
+    display:inline-block;
+    float:left;
+    padding:10px;
+}
+
+body > section :last-child {
+    float:right;
+    margin-top:3%;
 }
 
 h2 {
@@ -43,7 +50,7 @@ body > article > div {
 }
 
 body > article > div > div {
-	width:70%;
+	width:65%;
 }
 
 tr.hr_table td {
@@ -63,7 +70,8 @@ hr {
 
 body > article > div > table {
 	float:right;
-	width:25%;
+	width:18%;
+	text-align:center;
 }
 
 caption {
@@ -78,6 +86,7 @@ img {
 
 table {
 	width:100%;
+	border-spacing:0px;
 }
 
 .icon_img {
