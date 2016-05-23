@@ -6,6 +6,7 @@
 	<title>Apple Music</title>
 		<link href="style.css" rel="stylesheet" type="text/css" />
 		<link rel="icon" type="image/ico" href="resource/favicon.ico" />
+		<link href="css_flyoutverticalmenu.css" type="text/css" rel="Stylesheet" />
 	</head>
 	<body>
 		<header>
@@ -45,7 +46,19 @@
 			<div>
 				<img class="icon_img" alt="play" src="resource/play.png">
 				<img class="icon_img" alt="shuffle" src="resource/shuffle.png">
-				<img class="icon_img" alt="more" src="resource/more.png">
+				<div id="menuwrapper">
+					<ul>
+						<li><a href="#"><img class="icon_img" alt="more" src="resource/more.png"></a>
+							<ul>
+								<li><a href="#">Add to My Music</a></li>
+								<li><a href="#">Add to Playlist</a></li>
+								<li><a href="#">Add to Up Next</a></li>
+								<li><a href="#">Share Playlist</a></li>
+								<li><a href="#">I Don't Like This</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>				
 			</div>
 			<div>
 				<img class="icon_img" alt="add" src="resource/add.png">
