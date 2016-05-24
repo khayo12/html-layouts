@@ -95,6 +95,11 @@ table {
 	width:50px;
 }
 
+.o_img {
+	height:20px;
+	width:20px;
+}
+
 .indent_td {
 	width:3%;
 }
@@ -131,7 +136,7 @@ table {
 
 
 #divMenu ul li a {
-    width: 148px;
+    width: 180px;
     height: 25px;
     display: block;
     text-decoration: none;
@@ -141,14 +146,13 @@ table {
 #divMenu ul ul {
     position: absolute;
     visibility: hidden;
-    top: 27px;
 }
 
 #divMenu ul li:hover ul {
     visibility: visible;
     background-color:#D1D1D1;
     left: 148px;
-    top: -1px;    
+    top: 0;
     
     border-radius: 5px; 
 	-moz-border-radius: 5px; 
@@ -158,6 +162,12 @@ table {
 
 #divMenu ul li:hover ul li a:hover {
     background-color:#0069D9;
+}
+
+#divMenu ul li:hover ul li img {
+	float:left;
+	padding:5px;
+	top:-5px;
 }
 
 #divMenu li a:after {
