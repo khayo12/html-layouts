@@ -151,7 +151,7 @@ table {
 #divMenu ul li:hover ul {
     visibility: visible;
     background-color:#D1D1D1;
-    left: 148px;
+    left: 170px;
     top: 0;
     
     border-radius: 5px; 
@@ -164,10 +164,13 @@ table {
     background-color:#0069D9;
 }
 
+#divMenu ul li:hover ul li {
+	display:inline-block;
+}
+
 #divMenu ul li:hover ul li img {
 	float:left;
 	padding:5px;
-	top:-5px;
 }
 
 #divMenu li a:after {
