@@ -3,6 +3,12 @@
 	font-family:Arial, Helvetica, sans-serif;
 }
 
+header {
+	padding-left:10px;
+	padding-right:10px;
+	height:40px;
+}
+
 header > div {
     display:inline-block;
     font-weight:bolder;
@@ -21,6 +27,9 @@ header > div > nav > ul > li {
 
 body > section {
 	background-color:#010101;
+	padding-left:20px;
+	padding-right:20px;
+
 }
 
 body > section > div {
@@ -44,6 +53,9 @@ h5 {
 
 body > article {
 	background-color:#010101;
+	padding-left:20px;
+	padding-right:20px;
+
 }
 
 body > article > div {
@@ -51,7 +63,7 @@ body > article > div {
 }
 
 body > article > div > div {
-	width:65%;
+	width:75%;
 }
 
 tr.hr_table td {
@@ -62,6 +74,8 @@ tr.hr_table td {
 hr {
 	color:#151515;
 	background-color:#010101;
+	width:102%;
+	margin-left:-20px;
 }
 
 .table_img {
@@ -71,7 +85,7 @@ hr {
 
 body > article > div > table {
 	float:right;
-	width:18%;
+	width:20%;
 	text-align:center;
 }
 
@@ -102,6 +116,14 @@ table {
 
 .indent_td {
 	width:3%;
+}
+
+select {
+	width:150px;
+	text-indent:25px;
+	height:30px;
+	background-image:url('resource/music.png');
+	background-repeat:no-repeat;
 }
 
 
