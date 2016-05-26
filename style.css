@@ -40,8 +40,18 @@ body > section > div {
 
 body > section :last-child {
     float:right;
-    margin-top:3%;
 }
+
+.section_div {
+	margin-top:3%;
+}
+
+
+body > section > div {
+    display:inline-block;
+    padding:10px;
+}
+
 
 h2 {
 	color:#D1D1D1;
@@ -126,6 +136,14 @@ select {
 	background-repeat:no-repeat;
 }
 
+.fa-chevron {
+	font-family:fontAwesome;
+	content:"\f054";
+	height:20px;
+	width:20px;
+	float:right;
+}
+
 
 
 
@@ -173,7 +191,7 @@ select {
 #divMenu ul li:hover ul {
     visibility: visible;
     background-color:#D1D1D1;
-    left: 170px;
+    left: 180px;
     top: 0;
     
     border-radius: 5px; 
@@ -188,22 +206,31 @@ select {
 
 #divMenu ul li:hover ul li {
 	display:inline-block;
+	line-height:20px;
+	font-size:14px;
 }
 
 #divMenu ul li:hover ul li img {
+	height:20px;
+	width:20px;
 	float:left;
-	padding:5px;
+	padding:0 5px 0 5px;
 }
 
-#divMenu li a:after {
-	content:'\25B6';
+#divMenu ul li:hover ul li span {
 	float:right;
 }
 
-#divMenu ul li a:after {
+.topRow:after {
+	content:'\f0d9';
+	color:#FFF;
+	float:left;
+}
+
+.topRow:after {
 	content:'\a0\a0\a0\25BC' no-repeat 50%;
 }
 
-#divMenu li a:only-child:after {
+.topRow:only-child:after {
 	content:'';
 }
