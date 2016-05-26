@@ -4,38 +4,57 @@
 }
 
 header {
-	padding-left:10px;
-	padding-right:10px;
+	padding: 0 10px;
 	height:40px;
 }
 
 header > div {
     display:inline-block;
-    font-weight:bolder;
+    font-weight:bold;
     color:#404040;
 }
 
 header > div > nav > ul > li > a {
-    padding-left: 20px;
+    padding: 0 10px;
     color:#404040;
     text-decoration:none;
 }
 
 header > div > nav > ul > li {
     display: inline-block;
+    height:30px;
+}
+
+header > div > nav > ul > li:hover {
+	background-color:#D2E4F8;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+}
+
+header > div > nav > ul > li > a:hover {
+	color:#1F66B1;
+}
+
+header > div > nav > ul > li:active {
+	background-color:#D2E4F8;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+}
+
+header > div > nav > ul > li > a:active {
+	color:#1F66B1;
 }
 
 body > section {
 	background-color:#010101;
-	padding-left:20px;
-	padding-right:20px;
-
+	padding: 0 20px;
 }
 
 body > section > div {
     display:inline-block;
     float:left;
-    padding:10px;
 }
 
 body > section :last-child {
@@ -55,16 +74,17 @@ body > section > div {
 
 h2 {
 	color:#D1D1D1;
+	font-weight:normal;
 }
 
 h5 {
 	color:#D1D1D1;
+	font-weight:normal;
 }
 
 body > article {
 	background-color:#010101;
-	padding-left:20px;
-	padding-right:20px;
+	padding: 0 20px;
 
 }
 
@@ -177,8 +197,8 @@ select {
 
 #divMenu ul li a {
     width: 180px;
-    height: 25px;
-    display: block;
+    height: 30px;
+    display: inline-block;
     text-decoration: none;
     color:#010101;
 }
@@ -192,8 +212,7 @@ select {
     visibility: visible;
     background-color:#D1D1D1;
     left: 180px;
-    top: 0;
-    
+    margin-top:-30px;    
     border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
@@ -202,6 +221,9 @@ select {
 
 #divMenu ul li:hover ul li a:hover {
     background-color:#0069D9;
+    border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
 }
 
 #divMenu ul li:hover ul li {
