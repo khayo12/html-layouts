@@ -36,15 +36,13 @@ header > div > nav > ul > li > a:hover {
 	color:#1F66B1;
 }
 
-header > div > nav > ul > li:active {
+header > div > nav > ul > li > a:focus{
+	color:#1F66B1;
+	height:30px;
 	background-color:#D2E4F8;
 	border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px;
-}
-
-header > div > nav > ul > li > a:active {
-	color:#1F66B1;
 }
 
 body > section {
@@ -117,7 +115,14 @@ body > article > div > table {
 	float:right;
 	width:20%;
 	text-align:center;
+	padding:0px;
 }
+
+body > article > div > table > img {
+	text-align:left;
+	height:10px;
+}
+
 
 caption {
 	text-align:left;
@@ -230,7 +235,7 @@ select {
 #divMenu ul li:hover ul {
     visibility: visible;
     background-color:#D1D1D1;
-    left: 180px;
+    left: 190px;
     margin-top:-33px;    
     border-radius: 5px; 
 	-moz-border-radius: 5px; 
